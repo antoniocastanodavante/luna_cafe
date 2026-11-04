@@ -22,12 +22,12 @@
                 <li><a href="detalles.html">Detalles</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
                 <li>
-                <li>
                     <a href="pago.html" class="boton-carrito" title="Ir al pago">
                         <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png"
                             alt="Carrito" id="icono-carrito">
                     </a>
                 </li>
+                <li><a href="login.html" class="boton-login">Iniciar sesión</a></li>
             </ul>
         </nav>
     </header>
@@ -37,14 +37,60 @@
             <h1>Tu café, tu momento.</h1>
             <p>Café de especialidad recién tostado y seleccionado de las mejores fincas para disfrutar cada día.</p>
             <a class="boton-principal" href="productos.html">VER TIENDA</a>
+            <a class="boton-secundario" href="#nosotros">Conócenos</a>
         </div>
+    </section>
+
+    <section class="seccion-presentacion" id="nosotros">
+        <h2 class="titulo-seccion">Quiénes somos</h2>
+        <div class="bloque-presentacion">
+            <div class="bloque-presentacion-texto">
+                <p>LUNA CAFÉ nace de la pasión por el café de especialidad. Trabajamos directamente con productores de Colombia, Etiopía, Guatemala, Brasil y Costa Rica para encontrar granos con carácter.</p>
+                <p>Cada lote se tuesta en pequeñas cantidades para conservar sus notas originales, desde el chocolate suave hasta las flores y los cítricos.</p>
+            </div>
+            <div class="bloque-presentacion-imagen">
+                <img src="./img/logo.png" alt="Logotipo de LUNA CAFÉ">
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion-valores">
+        <h2 class="titulo-seccion">Lo que nos define</h2>
+        <div class="contenedor-valores">
+            <div class="tarjeta-valor">
+                <h3>Fincas seleccionadas</h3>
+                <p>Elegimos cada origen por su calidad y por el trabajo de las familias productoras que lo cultivan.</p>
+            </div>
+            <div class="tarjeta-valor">
+                <h3>Tueste artesanal</h3>
+                <p>Tostamos a pequeña escala para ajustar el punto de cada café y resaltar lo mejor de su perfil.</p>
+            </div>
+            <div class="tarjeta-valor">
+                <h3>Envío sin complicaciones</h3>
+                <p>Envío gratis en pedidos superiores a 25 €, para que tengas tu café en casa sin pagar de más.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion-destacado">
+        <h2 class="titulo-seccion">Nuestro más vendido</h2>
         <div class="tarjeta-mas-vendido">
             <span class="etiqueta-estrella">¡El más vendido!</span>
-            <img alt="Cafe Colombia Suprema" src="./img/cafeColombiaSuprema.png"/>
+            <img alt="Café Colombia Suprema" src="./img/cafeColombiaSuprema.png"/>
             <h3>Café Colombia Suprema</h3>
             <p class="precio-destacado">12,90 € · 250g</p>
-            <a class="enlace-detalle" href="detalles.html">Ver detalles del producto</a>
+            <a class="enlace-detalle" href="detalles.html#colombia">Ver detalles del producto</a>
         </div>
+        <a class="boton-principal enlace-catalogo" href="productos.html">Ver todos los cafés</a>
+    </section>
+
+    <section class="seccion-multimedia" id="ambiente">
+        <h2 class="titulo-seccion">Ambiente de cafetería</h2>
+        <p class="subtitulo-contacto">Pon una pista suave mientras eliges tu café.</p>
+        <audio class="reproductor-audio" controls preload="none">
+            <source src="./media/sonido.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
     </section>
     </main>
     <footer class="pie-pagina">

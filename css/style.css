@@ -51,6 +51,21 @@ body {
     height: 22px;
 }
 
+.boton-login {
+    display: inline-block;
+    background-color: #2c221e;
+    color: #fff !important;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.boton-login:hover {
+    background-color: #444;
+    color: #fff !important;
+}
+
 .boton-carrito {
     background: none;
     border: none;
@@ -98,6 +113,23 @@ body {
 
 .boton-principal:hover {
     background-color: #d4b554;
+}
+
+.boton-secundario {
+    display: inline-block;
+    margin-left: 10px;
+    color: #e2c66f;
+    border: 1px solid #e2c66f;
+    padding: 9px 21px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.boton-secundario:hover {
+    background-color: #e2c66f;
+    color: #2b2b2b;
 }
 
 
@@ -230,6 +262,123 @@ body {
     background-color: #d4b554;
 }
 
+.enlace-producto {
+    color: inherit;
+    text-decoration: none;
+}
+
+.enlace-producto:hover h3 {
+    color: #8a6d1f;
+}
+
+.tarjeta-cafe .enlace-detalle {
+    margin-bottom: 10px;
+}
+
+.enlace-volver {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #2b2b2b;
+}
+
+.enlace-volver:hover {
+    color: #8a6d1f;
+}
+
+
+/* PRESENTACION (pagina de inicio) */
+
+.seccion-presentacion {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.bloque-presentacion {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.bloque-presentacion-texto {
+    flex: 1;
+    min-width: 260px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.bloque-presentacion-texto p + p {
+    margin-top: 15px;
+}
+
+.bloque-presentacion-imagen {
+    flex: 1;
+    min-width: 260px;
+    text-align: center;
+}
+
+.bloque-presentacion-imagen img {
+    width: 100%;
+    max-width: 280px;
+    padding: 30px;
+    background-color: #2c221e;
+    border-radius: 8px;
+}
+
+.seccion-valores {
+    background-color: #f1ede4;
+    padding: 60px 20px;
+}
+
+.contenedor-valores {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tarjeta-valor {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    width: 280px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.tarjeta-valor h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #2b2b2b;
+}
+
+.tarjeta-valor p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.seccion-destacado {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #faf9f6;
+}
+
+.seccion-destacado .tarjeta-mas-vendido {
+    margin: 0 auto 30px;
+}
+
+.enlace-catalogo {
+    display: inline-block;
+    text-decoration: none;
+}
+
 
 .seccion-detalles {
     background-color: #f1ede4;
@@ -355,6 +504,55 @@ body {
 }
 
 
+.seccion-login {
+    background-color: #faf9f6;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.formulario-login {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border: 1px solid #e0e0e0;
+}
+
+.formulario-login .enlace-volver {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.bloque-registro {
+    max-width: 400px;
+    margin: 25px auto 0;
+    text-align: center;
+    color: #555;
+}
+
+.bloque-registro p {
+    margin-bottom: 12px;
+}
+
+.boton-registro {
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid #2b2b2b;
+    border-radius: 4px;
+    color: #2b2b2b;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.boton-registro:hover {
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
 .pie-pagina {
     background-color: #2b2b2b;
     color: #fff;
@@ -408,4 +606,86 @@ body {
     display: block;
     margin-top: 20px;
     color: #5c3926;
+}
+
+
+/* MULTIMEDIA */
+
+.seccion-multimedia,
+.seccion-video {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.reproductor-audio {
+    width: 100%;
+    max-width: 500px;
+}
+
+.reproductor-video {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+/* RESPONSIVE (tablet y móvil) */
+
+@media (max-width: 768px) {
+    .cabecera-principal {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 20px;
+    }
+
+    .menu-navegacion ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px 18px;
+    }
+
+    .seccion-inicio {
+        padding: 40px 15px;
+    }
+
+    .hero-texto h1 {
+        font-size: 1.8rem;
+    }
+
+    .detalle-contenedor-interno {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .contenedor-pago {
+        width: auto;
+        margin: 30px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-cabecera {
+        width: 48px;
+        height: 48px;
+    }
+
+    .tarjeta-mas-vendido,
+    .tarjeta-cafe,
+    .tarjeta-valor {
+        width: 100%;
+    }
+
+    .boton-secundario {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .contenedor-tarjetas {
+        gap: 20px;
+    }
+
+    .detalle-imagen img {
+        height: 220px;
+    }
 }

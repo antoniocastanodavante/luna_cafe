@@ -29,37 +29,87 @@
                             alt="Carrito" id="icono-carrito">
                     </a>
                 </li>
+                <li><a href="login.html" class="boton-login">Iniciar sesión</a></li>
             </ul>
         </nav>
     </header>
     <main class="contenido-principal">
         <section class="seccion-catalogo" id="seccion-cafes">
-            <h2 class="titulo-seccion">Nuestros Cafés Destacados</h2>
+            <h2 class="titulo-seccion">Nuestros Cafés</h2>
             <div class="contenedor-tarjetas">
                 <div class="tarjeta-cafe">
-                    <img alt="cafeColombia"
-                        src="./img/cafeColombiaSuprema.png" />
-                    <h3>Café Colombia Suprema</h3>
+                    <a class="enlace-producto" href="detalles.html#colombia">
+                        <img alt="Café Colombia Suprema"
+                            src="./img/cafeColombiaSuprema.png" />
+                        <h3>Café Colombia Suprema</h3>
+                    </a>
                     <p>Notas de chocolate con leche, caramelo y avellana. Tueste medio ideal para espresso y cafetera
                         italiana. / 12,90 € · 250g</p>
                     <button class="boton-comprar">Añadir al carrito</button>
                 </div>
                 <div class="tarjeta-cafe">
-                    <img alt="cafeEtiopia"
-                        src="./img/cafeEtipia.png" />
-                    <h3>Café Etiopía Yirgacheffe</h3>
+                    <a class="enlace-producto" href="detalles.html#etiopia">
+                        <img alt="Café Etiopía Yirgacheffe"
+                            src="./img/cafeEtipia.png" />
+                        <h3>Café Etiopía Yirgacheffe</h3>
+                    </a>
                     <p>Notas florales, jazmín y toques cítricos. Tueste claro perfecto para filtro (V60, Chemex). /
                         13,50 € · 250g</p>
                     <button class="boton-comprar">Añadir al carrito</button>
                 </div>
                 <div class="tarjeta-cafe">
-                    <img alt="cafeBlend"
-                        src="./img/cafeBlend.png" />
-                    <h3>Café Luna Blend</h3>
+                    <a class="enlace-producto" href="detalles.html#blend">
+                        <img alt="Café Luna Blend"
+                            src="./img/cafeBlend.png" />
+                        <h3>Café Luna Blend</h3>
+                    </a>
                     <p>Notas de chocolate y caramelo. Equilibrio perfecto para el día a día. / 11,90 € · 250g</p>
                     <button class="boton-comprar">Añadir al carrito</button>
                 </div>
+                <div class="tarjeta-cafe">
+                    <a class="enlace-producto" href="detalles.html#guatemala">
+                        <img alt="Café Guatemala Antigua"
+                            src="./img/guatemala.png" />
+                        <h3>Café Guatemala Antigua</h3>
+                    </a>
+                    <p>Notas de cacao, manzana roja y azúcar moreno. Tueste medio con cuerpo equilibrado. / 12,50 € · 250g</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                </div>
+                <div class="tarjeta-cafe">
+                    <a class="enlace-producto" href="detalles.html#brasil">
+                        <img alt="Café Brasil Cerrado"
+                            src="./img/brasil.png" />
+                        <h3>Café Brasil Cerrado</h3>
+                    </a>
+                    <p>Chocolate, avellana y nuez tostada. Cuerpo sedoso y acidez suave, ideal para espresso. / 10,90 € · 250g</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                </div>
+                <div class="tarjeta-cafe">
+                    <a class="enlace-producto" href="detalles.html#costarica">
+                        <img alt="Café Costa Rica Tarrazú"
+                            src="./img/costaRica.png" />
+                        <h3>Café Costa Rica Tarrazú</h3>
+                    </a>
+                    <p>Miel, cítricos y frutas amarillas. Acidez brillante y limpia, perfecto para V60 o Aeropress. / 14,20 € · 250g</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                </div>
+                <div class="tarjeta-cafe">
+                    <a class="enlace-producto" href="detalles.html#sumatra">
+                        <img alt="Café Sumatra Mandheling"
+                            src="./img/sumatra.png" />
+                        <h3>Café Sumatra Mandheling</h3>
+                    </a>
+                    <p>Tierra húmeda, cacao amargo y especias suaves. Cuerpo denso y poca acidez. / 13,90 € · 250g</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                </div>
             </div>
+        </section>
+        <section class="seccion-video" id="video-productos">
+            <h2 class="titulo-seccion">Así preparamos nuestros cafés</h2>
+            <video class="reproductor-video" controls preload="metadata">
+                <source src="./media/video.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de vídeo.
+            </video>
         </section>
     </main>
     <footer class="pie-pagina">
